@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOVE FOR YOU.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x.icon" href="assest\image.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+
+
+
+<style>     
+     *{
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+      }    
+      section {
+            display: none;
+            width: 100vw;
+        }
+        section:target {
+            display: block;
+            height: calc(100%);
+            width: 100vw;
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-bottom: -10px;
+        }
+        span{
+          background-color: rgb(243, 243, 47);
+          color: white;
+          padding: 5px;
+          border-radius: 5px;
+        }
+        body {
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+}
+
+body {
+  overflow-x: hidden;
+}
+.tabcontent {
+  width: 100vw;
+  margin-right: 10%;
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+        .tablink {
+  background-color: #555;
+  width: 100vw;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 30px;
+  text-decoration: none;
+  width: 20%;
+  bottom: 0%;
+}
+   .tablink:hover {
+  background-color: #777;
+}
+h3{
+  font-size: 35px;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+  width: 100vw;
+}
+
+#gallery {
+  background-color:red;
+  width: calc(100%);
+  height: calc(100%);
+}
+#surprise {background-color:green;}
+#letter {background-color:blue;}
+#home {background-color:orange;} 
+#mission-happy{background-color:green;}
+
+@media screen and (max-width: 600px) {
+  .tablink {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .tabcontent {
+    font-size: 3vw;
+    color: black;
+  }
+}
+
+
+      section:target #lettertrans:hover{
+        background-color: rgb(52, 235, 143);
+        color: white
+       }
+       #bangla{
+        display: none;
+       }
+       @media (min-width: 600px) and (max-width: 800px) {
+  body {
+    cursor: crosshair;
+  }
+}
+
+    </style>
+</head>
+<body oncontextmenu="return true">
+  <nav class="navbar" id="navbar">
+    <a class="tablink" onclick="openCity('home', this, 'orange')" href="#home">Home</a>
+    <a class="tablink" onclick="openCity('letter', this, 'blue')"  href="#letter">Letter</a>
+    <a class="tablink" onclick="openCity('surprise', this, 'green')"  href="#surprise">Surprise</a>
+    <a class="tablink" onclick="openCity('gallery', this, 'red')"  href="#gallery">Gallery</a>
+    
+</nav>
+ <header>  
+      <section id="index">
+    <H1 style="font-size: 90px; margin: 20px;;">Hello there, <br> It's time to show another project of mine related to <span>Valentine</span> <br> and that was created for my <span>Valentine.</span> <br><BR> <div style="background-color: red; color: white ;">Caution:</div> <div style="color: red;"> Some content may deleted, replaced or kept private for privacy issue.</div></H1>
+      <picture srcset="assest\_d23189c0-0118-4dc1-a84f-3831b35e7950.jpg 320w"><img style="width: 90%;" src="assest\_d23189c0-0118-4dc1-a84f-3831b35e7950.jpg"></picture>
+      <h3 style="text-align: center; bottom: 0px;">Tap Home page navigation to be welcomed.</h3>
+      </section></header>
+      <section class="tabcontent" id="home">
+        <!-- Home content goes here -->
+        <h1>Welcome to My Website</h1>
+        <img style="width: 90%; display: grid; justify-items: center;" src="assest\423063080_790108049810362_887908109634394735_n.jpg" srcset="assest\423063080_790108049810362_887908109634394735_n.jpg  320w , assest\423063080_790108049810362_887908109634394735_n.jpg 1240w" alt="A sample image">
+        <h3 style="text-align: center; margin-left: calc(-20px); bottom: 0px;"> Here is the webpage. You should visit to Gallery page.</h3>
+    </section>
+    <section class="tabcontent" id="letter">
+        <!-- letter page goes here -->
+        <div style="background-color:rgb(197, 184, 184); border-radius: 10px; margin-right: calc(20%); margin-top: 50px; padding: 10px;" >
+            <P>Sevgili Aşkım,<br>
+     
+            Seninle olmak, hayatıma anlam katıyor. Sen benim en iyi arkadaşımsın, her şeyimsin. Seni seviyorum çünkü sen benim hayatımın en önemli parçasısın. Seninle birlikte olduğumda, hayat daha güzel ve anlamlı hale geliyor. Seni seviyorum ve seninle birlikte olmak istiyorum.
+            
+            <br>Sevgiyle,<br>
+           <br> Rifat
+            </P></div>
+            <div id="lettertrans" style="border: 5px solid cornflowerblue; margin-top: 25px; margin-left:calc(70%); text-align: center; border-radius: 10px; padding: 10px;"> !trans Bn</div>
+            <div style="font-size:24px; margin-left:calc(70%); color: rgb(19, 209, 35) ; margin-top:2px;">Tap here to see translation...</div>
+            <div id="bangla" style="background-color:rgb(197, 184, 184); border-radius: 10px; margin-right: calc(20%); padding: 10px; margin-top: 20px;" >
+                <P><span>প্রিয় ভালোবাসা,</span><br>
+    
+            আপনার সাথে থাকা, আমার জীবনকে অর্থবহ করে। আপনি আমার সেরা বন্ধু, আমার সবকিছু। <span> আমি আপনাকে ভালোবাসি কারণ আপনি আমার জীবনের সবচেয়ে গুরুত্বপূর্ণ অংশ। আপনার সাথে থাকলে, জীবন আরও সুন্দর এবং অর্থবহ হয়। </span>আমি আপনাকে ভালোবাসি এবং আমি আপনার সাথে থাকতে চাই।
+                    
+             <br>ভালোবাসার সাথে,<br>
+                <br>Rifat
+                </P></div>
+        <h3 style=" margin-left: -20px; text-align: center; bottom: 0px;"> Finally, Surprise is open for You. Go and visit there.</h3>
+    </section>
+    <section class="tabcontent" id="surprise">
+       <!---surprise page goes here --->
+        <h1 id="bg">Would you be my <span>Valentine?</span></h1>
+        <picture>
+          <source srcset="assest\image.png" media="(max-width: 600px)">
+          <source srcset="assest\image.png" media="(max-width: 1500px)">
+          <source srcset="assest\image.png">
+          <img src="assest\image.png" alt="propose" style="max-width: 100%; height: auto;">
+        </picture>
+       <button  class='yeah' id='yeah'onclick="location.href='#mission-happy'" >Yeah </button>
+       <button  class='no' id='no'>No</button>
+    </section> 
+
+   <div id="mission-happy" style="text-align: center; display: none; margin-left:-10px;margin-bottom: -10px;margin-right: -10px;" >
+      <picture>
+        <source srcset="assest\Untitled-2024-02-05-0015.png" media="(max-width: 600px)">
+        <source srcset="assest\Untitled-2024-02-05-0015.png" media="(max-width: 1500px)">
+        <source srcset="assest\Untitled-2024-02-05-0015.png">
+        <img src="assest\Untitled-2024-02-05-0015.png" alt="accepted" style="max-width: 100%; height: auto;">
+      </picture>
+      <H2>Yayyyyyyyyyy!!!</H2>
+      <H3>Love you dear sweetheart. You are one of my luckiest numbers that I can’t be okay without you. <span>And continue your dua for our marriage and a bright future </span></H3>
+      <H3>Take a lot of love from the deepest epicenter of my heart,</H3><br><h1> Rifuuu baby. 💛💜 </h1>
+    </div>
+    <section class="tabcontent" id="gallery"> 
+        <!--- gallery page goes here -->
+        <div style="display: flex; justify-content: center;"></div>
+        <h1>Here are some images that I have saved to my gallery.</h1>
+        <p>This girl has stolen my heart from myself. If any <span> righteous person </span> found this girl in your local area, please inform me. I will bring her with myself forever. 🙃😫</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 10px; margin: 2% auto; max-width: 90%;">
+          <div style="border: 5px solid rgb(55, 209, 171);">
+            <picture>
+              <source srcset="assest\IMG-20240411-WA0010.jpg" media="(max-width: 600px)">
+              <source srcset="assest\IMG-20240411-WA0010.jpg" media="(max-width: 1500px)">
+              <source srcset="assest\IMG-20240411-WA0010.jpg">
+              <img src="assest\IMG-20240411-WA0010.jpg"  style="max-width: 100%; height: auto;">
+            </picture>
+        </div>
+        <div style="border: 5px solid rgb(55, 209, 171);">
+          <picture>
+            <source srcset="assest\IMG_20240413_012458_219.jpg" media="(max-width: 600px)">
+            <source srcset="assest\IMG_20240413_012458_219.jpg" media="(max-width: 1500px)">
+            <source srcset="assest\IMG_20240413_012458_219.jpg">
+            <img src="assest\IMG_20240413_012458_219.jpg"  style="max-width: 100%; height: auto;">
+          </picture>
+      </div>
+      <div style="border: 5px solid rgb(55, 209, 171);">
+        <picture>
+          <source srcset="assest\IMG_20240408_004953_235.jpg" media="(max-width: 600px)">
+          <source srcset="assest\IMG_20240408_004953_235.jpg" media="(max-width: 1500px)">
+          <source srcset="assest\IMG_20240408_004953_235.jpg">
+          <img src="assest\IMG_20240408_004953_235.jpg"  style="max-width: 100%; height: auto;">
+        </picture>
+    </div>
+          <div style="border: 5px solid rgb(55, 209, 171);">
+            <picture>
+              <source srcset="assest\received_702922158374570.jpeg" media="(max-width: 600px)">
+              <source srcset="assest\received_702922158374570.jpeg" media="(max-width: 1500px)">
+              <source srcset="assest\received_702922158374570.jpeg">
+              <img src="assest\received_702922158374570.jpeg"  style="max-width: 100%; height: auto;">
+            </picture>
+          </div>
+          <div style="border: 5px solid rgb(55, 209, 171);">
+            <picture>
+              <source srcset="assest\received_961854481979464.jpeg" media="(max-width: 600px)">
+              <source srcset="assest\received_961854481979464.jpeg" media="(max-width: 1500px)">
+              <source srcset="assest\received_961854481979464.jpeg">
+              <img src="assest\received_961854481979464.jpeg"  style="max-width: 100%; height: auto;">
+            </picture>
+        </div>
+        <h3>You should visit Letter to get something there.</h3>
+    </section>
+</body>
+<script>
+// Get the buttons by their ids
+let yesButton = document.getElementById("yeah");
+let noButton = document.getElementById("no");
+
+
+// Set the initial width and height of the buttons to 12.5% using cssText
+yesButton.style.cssText = "width: 12.5%;  max-width: 100vw;  max-height: 100vh;  height: 12.5%; background-color: springgreen;";
+noButton.style.cssText = "width: 12.5%; height: 12.5%; background-color: deeppink;";
+
+// Set the initial font size of the buttons to 1em using cssText
+yesButton.style.cssText += "font-size: 1em;";
+noButton.style.cssText += "font-size: 1em;";
+
+// Add an event listener to the no button
+noButton.addEventListener("click", function () {
+  // Get the current width and height of the yes button
+  let yesWidth = yesButton.getBoundingClientRect().width;
+  let yesHeight = yesButton.getBoundingClientRect().height;
+
+  // Get the current font size of the yes button
+  let yesFontSize = parseFloat(yesButton.style.fontSize);
+
+  // Check if the yes button is already 100% in width and height
+  if (yesWidth === window.innerWidth && yesHeight === window.innerHeight) {
+    // Do nothing
+    return
+  }
+  
+  // Otherwise, double the width and height of the yes button
+  yesButton.style.width = `${yesWidth * 2}px`;
+  yesButton.style.height = `${yesHeight * 2}px`;
+
+  // Also, double the font size of the yes button
+  yesButton.style.fontSize = `${yesFontSize * 2}em`;
+});
+
+// Add an event listener to the yes button
+yesButton.addEventListener("click", function () { 
+  // Reset the width and height of the yes button to 12.5%
+  yesButton.style.width = "12.5%";
+  yesButton.style.height = "12.5%";
+
+  // Reset the font size of the yes button to 1em
+  yesButton.style.fontSize = "1em";
+});
+
+
+
+    // Get the element with id lettertrans
+var lettertrans = document.getElementById("lettertrans");
+
+// Add a click event listener to lettertrans
+lettertrans.addEventListener("click", function() {
+  // Get the element with id bangla
+  var bangla = document.getElementById("bangla");
+  // Toggle the display property of bangla
+  if (bangla.style.display === "block") {
+    bangla.style.display = "none";
+  } else {
+    bangla.style.display = "block";
+  }
+});
+
+    // Get the element with id yeah
+    var yesbtn = document.getElementById("yeah");
+
+// Add a click event listener to button id yeah
+yesbtn.addEventListener("click", function() {
+  // Get the element with id mission-happpy
+  var missionHappy = document.getElementById("mission-happy");
+  // Toggle the display property of missionHappy
+  if (missionHappy.style.display === "block") {
+    missionHappy.style.display = "none";
+  } else {
+   missionHappy.style.display = "block";
+  }
+});
+
+// Get all the sections in the document
+var sections = document.getElementsByTagName("section");
+
+// Define a function to show the index section
+function showIndex() {
+  // Loop through all the sections
+  for (var i = 0; i < sections.length; i++) {
+    // If the section has the id "index", set its display to block
+    if (sections[i].id == "index") {
+      sections[i].style.display = "block";
+    }
+    // Otherwise, set its display to none
+    else {
+      sections[i].style.display = "none";
+    }
+  }
+}
+
+// Define a function to hide the index section
+function hideIndex() {
+  // Loop through all the sections
+  for (var i = 0; i < sections.length; i++) {
+    // If the section has the id that matches the location hash, set its display to block
+    if ("#" + sections[i].id == location.hash) {
+      sections[i].style.display = "block";
+    }
+    // Otherwise, set its display to none
+    else {
+      sections[i].style.display = "none";
+    }
+  }
+}
+
+// Call the showIndex function when the page loads
+window.onload = showIndex;
+
+// Add an event listener to the window object for hashchange event
+window.addEventListener("hashchange", function() {
+  // If the hash is empty, call the showIndex function
+  if (window.location.hash == "") {
+    showIndex();
+  }
+  // Otherwise, call the hideIndex function
+  else {
+    hideIndex();
+  }
+});
+
+function openCity(cityName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default 
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+    // Show the specific tab content
+    document.getElementById(cityName).style.display = "block";
+
+// Add the specific color to the button used to open the tab content
+elmnt.style.backgroundColor = color;
+}
+// Get the element with class="yeah" and add an event listener
+var yeahButton = document.querySelector(".yeah");
+yeahButton.addEventListener("click", function () {
+  // Call the openCity function with the corresponding section ID
+  openCity("yeahSection", yeahButton, "yourColorHere");
+});
+
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
+</html>
