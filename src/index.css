@@ -93,4 +93,7 @@ h2 {
   img {
       width: 90vw;
   }
+  .img-container{
+    column-count: 1;
+  }
 }
